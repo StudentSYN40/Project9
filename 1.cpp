@@ -35,7 +35,7 @@ int main()
  	printf("Максимальное число = %i\n",max);
  	printf("Минимальное число = %i\n",min);
  	printf("Сумма всех элементов = %i\n",sum);
- 	printf("Середнее арифметическое элементов = %i\n",sum/n);
+ 	printf("Середнее арифметическое элементов = %f\n",(float)sum/(float)n);
  
     delete[] arr;
 }
